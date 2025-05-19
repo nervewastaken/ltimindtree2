@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Whitepace - Pure HTML & CSS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="hero-bg">
+    <!-- Background wave pattern -->
+    <div class="hero-bg__waves">
+      <svg width="100%" height="100%" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M-114 354.5C-114 354.5 166 150.5 446 150.5C726 150.5 1006 354.5 1286 354.5C1566 354.5 1846 150.5 1846 150.5V904.5H-114V354.5Z" fill="white" fill-opacity="0.2"/>
+        <path d="M-114 454.5C-114 454.5 166 250.5 446 250.5C726 250.5 1006 454.5 1286 454.5C1566 454.5 1846 250.5 1846 250.5V904.5H-114V454.5Z" fill="white" fill-opacity="0.2"/>
+        <path d="M-114 554.5C-114 554.5 166 350.5 446 350.5C726 350.5 1006 554.5 1286 554.5C1566 554.5 1846 350.5 1846 350.5V904.5H-114V554.5Z" fill="white" fill-opacity="0.2"/>
+      </svg>
+    </div>
+    <!-- Navigation -->
+    <header class="navbar container">
+      <nav class="navbar__content">
+        <div class="navbar__logo">
+          <a href="/">
+            <img src="logo.png" alt="Whitepace" class="navbar__logo-img" />
+          </a>
+        </div>
+        <div class="navbar__links">
+          <div class="navbar__mainlinks">
+            <div class="navbar__dropdown">
+              <button>Products <span class="navbar__chevron"></span></button>
+            </div>
+            <div class="navbar__dropdown">
+              <button>Solutions <span class="navbar__chevron"></span></button>
+            </div>
+            <div class="navbar__dropdown">
+              <button>Resources <span class="navbar__chevron"></span></button>
+            </div>
+            <div class="navbar__dropdown">
+              <button>Pricing <span class="navbar__chevron"></span></button>
+            </div>
+          </div>
+          <div class="navbar__authlinks">
+            <a href="/login" class="btn btn--secondary">Login</a>
+            <a href="/signup" class="btn btn--accent">
+              Try Whitepace free <span class="arrow-right"></span>
+            </a>
+          </div>
+        </div>
+        <button class="navbar__mobilemenu" aria-label="Open menu">
+          <span class="navbar__bar"></span>
+          <span class="navbar__bar"></span>
+          <span class="navbar__bar"></span>
+        </button>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <main class="container hero">
+      <div class="hero__content">
+        <div class="hero__text">
+          <h1 class="hero__title">Get More Done with whitepace</h1>
+          <p class="hero__desc">Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
+          <a href="/signup" class="btn btn--accent">
+            Try Whitepace free <span class="arrow-right"></span>
+          </a>
+        </div>
+        <div class="hero__imagebox">
+          <div class="hero__placeholder"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
